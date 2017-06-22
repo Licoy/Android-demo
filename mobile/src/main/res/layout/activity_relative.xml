@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.licoy.demo2.RelativeActivity"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天天红烧肉"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/img_1"
+            android:layout_toEndOf="@+id/img_1"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="￥23.33"
+            android:layout_below="@+id/tv1"
+            android:layout_alignLeft="@+id/tv1"
+            android:layout_alignStart="@+id/tv1" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="红烧肉是热菜菜谱之一。以五花肉为制作主料，最好选用肥瘦相间的三层肉（五花肉）来做。红烧肉的烹饪技巧以砂锅为主，肥瘦相间，香甜松软，入口即化。红烧肉在我国各地流传甚广，是一道著名的大众菜肴。"
+            android:layout_below="@+id/tv2"
+            android:layout_alignLeft="@+id/tv2"
+            android:layout_alignStart="@+id/tv2" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

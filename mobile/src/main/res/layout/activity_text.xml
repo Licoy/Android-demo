@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.licoy.demo2.TextActivity"
+    android:orientation="vertical">
+
+    <cn.licoy.demo2.view.MarqueeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/textview_textview_textview" />
+
+    <cn.licoy.demo2.view.MarqueeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_textview_textview"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你要搜索的关键字"
+        android:layout_marginTop="10dp"
+        android:completionThreshold="1"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入你要搜索的关键字"
+        android:completionThreshold="1"/>
+
+</LinearLayout>

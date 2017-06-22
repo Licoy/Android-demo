@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.licoy.demo2.IndexActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="show data"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/go_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="图片区域"/>
+
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮区域" />
+
+    <Button
+        android:id="@+id/go_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="文本区域" />
+
+    <Button
+        android:id="@+id/go_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="相对定位" />
+    <Button
+        android:id="@+id/go_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="桢布局" />
+
+    <Button
+        android:id="@+id/go_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="表格布局" />
+
+
+
+</LinearLayout>
